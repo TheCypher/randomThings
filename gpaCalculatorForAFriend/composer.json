@@ -1,0 +1,26 @@
+{
+	"name": "Nickson Ariemba/phpNgin",
+	"description": "A micro PHP framework great for quick developement, APIs and customisation",
+
+	"require": {
+		"php": ">=5.3.0"
+	},
+
+	"license": "MIT",
+
+	"author": [
+		{
+			"name": "Nickson Ariemba",
+			"email": "nicksonthecypher@gmail.com"
+		}
+	],
+
+	"autoload": {
+        "psr-4": {
+            "App\\Ngin\\": "app/ngin/",
+            "Engine\\": "app/engine/",
+            "Engine\\Version\\": "app/engine/version/",
+            "Engine\\Calculator\\": "app/engine/calculator/"
+        }
+	}
+}

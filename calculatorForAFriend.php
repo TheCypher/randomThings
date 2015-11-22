@@ -11,7 +11,7 @@ $sn = $_POST['sname'];
 $somenumber = [100, 80];
 */
 
-$course = 90;//$_POST['course'];
+$course = 90.3;//$_POST['course'];
 $credit = 91;//$_POST['credit'];
 $sn = 1;//$_POST['sname'];
 $somenumber = [100, 99];
